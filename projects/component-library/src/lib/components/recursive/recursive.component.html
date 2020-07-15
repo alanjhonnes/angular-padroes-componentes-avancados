@@ -1,0 +1,4 @@
+<div>ID: {{node.id}}</div>
+
+<mjv-recursive *ngFor="let child of node.children"
+               [node]="child"></mjv-recursive>
